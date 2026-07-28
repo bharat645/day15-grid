@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.banner {
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.popular,
+.released,
+.trending {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+
+
+}
+
+.film {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+header,
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+}

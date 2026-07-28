@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.container{
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+    gap: 20px;
+}
+.large{
+    color: #fff;
+    display: grid;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 8px;
+    
+}
+.box{
+    display: grid;
+    margin-top: 20px;
+     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
