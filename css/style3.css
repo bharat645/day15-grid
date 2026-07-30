@@ -4,29 +4,38 @@
     box-sizing: border-box;
 }
 
-header,
-footer {
-    grid-column: 1/-1;
+header {
+    grid-column: 1;
     background-color: aquamarine;
     padding: 30px;
     text-align: center;
-
 }
 
-.main {
+.container{
+    max-width: 1320px;
+    width: 1320px;
+    margin: 0px auto;
+
+
+}
+main{
+    padding: 10px;
+    margin: 10px 0px;
+}
+.box {
     display: grid;
-    gap: 50px;
+    gap: 10px;
+    margin-bottom: 10px;
     text-align: center;
     grid-template-columns: 1fr 3fr;
 }
 
-.banner {
-    background: #fff;
-    padding: 30px;
-    width: 100%;
+.img {
+   
+    background-position: center;
+   
     border-radius: 8px;
     border: 2px solid black;
-    font-size: 30px;
 
 }
 
@@ -56,4 +65,10 @@ footer {
     text-align: center;
     border: 2px solid black;
     font-size: 30px;
+}
+footer {
+    grid-column: 1;
+    background-color: aquamarine;
+    padding: 30px;
+    text-align: center;
 }

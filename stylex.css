@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    grid-column:1;
+    text-align: center;
+    border: 2px solid black;
+
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 10px;
+
+}
+.box{
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+.span-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 10px;
+}
+.box1{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* magazine layout */
+
+.lay-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    gap: 10px;
+}
+
+    
+
+.item1{
+     border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    grid-column: span 2;
+    grid-row: span 2;
+    
+}
+.item{
+     border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+   
+    
+}
